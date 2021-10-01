@@ -48,7 +48,7 @@ php artisan serve
 
 You can now see the server running at http://127.0.0.1:8000
 
-**(Also in the project there is a docker.yml file that you can use to run this repo with docker)**
+**(Also in the project there is a docker-compose.yml file that you can use to run this repo with docker)**
 
 And now you can test these endpoints:
 
