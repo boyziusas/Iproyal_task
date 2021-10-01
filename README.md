@@ -7,13 +7,13 @@ Please check the official laravel installation guide for server requirements bef
 Clone the repository
 
 ```
-git clone git@github.com:boyziusas/PROJECT-NAME.git
+git clone git@github.com:boyziusas/Iproyal_task
 ```
 
 Switch to the repo folder
 
 ```
-cd PROJECT-NAME
+cd Iproyal_task
 ```
 
 Install all the dependencies using composer
@@ -46,7 +46,26 @@ Start the local development server
 php artisan serve
 ```
 
-You can now access the server at http://127.0.0.1:8000
+You can now see the server running at http://127.0.0.1:8000
+**Also in the project there is a docker.yml file that you can use to run this repo with docker**
+
+And now you can test these endpoints:
+
+```
+
+POST: http://localhost:8080/api/orders
+{
+    "country": "de",
+    "proxy_count": 75,
+    "title": "firstorder"
+}
+
+GET: http://localhost:8080/api/orders
+
+GET: http://localhost:8080/api/orders/{orderNumber}
+
+```
+
 
 **TL;DR command list**
 
