@@ -125,11 +125,11 @@ php artisan test
 
 ## Folders
 
-- `app` - Contains the core code you application
+- `app` - Contains the core code for the application
 - `app/Http` - Contains controllers, middleware, resources and form requests
 - `app/Models` - Contains all of Eloquent model classes
-- `app/Providers` - Contains all of the service providers for application
-- `config` - Contains all of application configuration files
+- `app/Providers` - Contains all of the service providers for the application
+- `config` - Contains all of the application configuration files
 - `database` - Contains database migrations, model factories and seeds
 - `public` - Contains the index.php file, which is the entry point for all requests entering application and configures autoloading
 - `resources` - Contains views as well as raw, un-compiled assets such as CSS or JavaScript
