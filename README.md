@@ -7,7 +7,7 @@ Please check the official laravel installation guide for server requirements bef
 Clone the repository
 
 ```
-git clone git@github.com:boyziusas/Iproyal_task.git
+git clone github.com/boyziusas/Iproyal_task
 ```
 
 Switch to the repo folder
